@@ -73,8 +73,7 @@ class _BaseErrorVisualizer(object):
 
 
 class ErrorVisualizer(_BaseErrorVisualizer):
-    """
-    ErrorVisualizer provides visual utilities to analyze the Error Tree in ErrorAnalyzer
+    """ErrorVisualizer provides visual utilities to analyze the Error Tree in ErrorAnalyzer.
 
     Args:
         error_analyzer (ErrorAnalyzer): fitted ErrorAnalyzer representing the performance of a primary model.
@@ -99,7 +98,7 @@ class ErrorVisualizer(_BaseErrorVisualizer):
         Args:
             size (tuple): size of the output plot.
 
-        Return:
+        Returns:
             graphviz.Source: graph of the Error Analyzer Tree.
 
         """
